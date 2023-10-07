@@ -1,0 +1,40 @@
+{
+  "name": "notepadv2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.3",
+    "@tabler/icons-react": "^2.20.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
+    "fs": "^0.0.1-security",
+    "mongodb": "^5.6.0",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.0.4"
+  },
+  "description": "notepad created for flight simulation",
+  "main": "index.js",
+  "author": "Atharv Garg <mark.atharv@gmail.com>",
+  "license": "GNU GPLv3"
+}
