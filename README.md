@@ -14,7 +14,7 @@ features, refer to issue template).
 
 ## Contributing
 
-@MarkVI2 will try to update issues or feature requests as soon as possible.
+[@MarkVI2](https://github.com/MarkVI2) will try to update issues or feature requests as soon as possible.
 Frameworks being used are **Next.js** with **Typescript**, **MongoDB** for
 flight information storage per person, and **Python** for any backend
 processing. The primary way to contribute is to look under an issue for the
