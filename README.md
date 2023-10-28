@@ -46,3 +46,8 @@ The `Main` branch is the primary production branch. All the builds will be
 released from the main branch.
 
 ## Development
+Pull the current repository into your local development environment.
+``cd`` your terminal into the project directory and run ``yarn run dev``. 
+This should host the notepad on ``http://localhost:3000/``.
+
+Production build and tests have not yet been established. Please raise an issue for the same and try to write up the tests for the same.
