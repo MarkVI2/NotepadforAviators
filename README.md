@@ -45,9 +45,11 @@ to access the repository.
 The `Main` branch is the primary production branch. All the builds will be
 released from the main branch.
 
+The `Alpha` branch is the primary branch for development being conducted by [@MarkVI2](https://github.com/MarkVI2). It is suggested to create a new branch and then make your changes to the current progress of the project.
+
 ## Development
 Pull the current repository into your local development environment.
-``cd`` your terminal into the project directory and run ``yarn run dev``. 
+``cd`` your terminal into the project directory and run ``yarn install`` followed by ``yarn run dev``. 
 This should host the notepad on ``http://localhost:3000/``.
 
 Production build and tests have not yet been established. Please raise an issue and write up the tests for the same.
