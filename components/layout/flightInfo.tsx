@@ -87,7 +87,7 @@ const FlightInfo = () => {
 
         // Convert specific fields to uppercase
         if (['callsign', 'from', 'to', 'type', 'tail', 'route'].includes(name)) {
-        inputValue = inputValue.toUpperCase();
+            inputValue = inputValue.toUpperCase();
         }
 
         setFlightData((prevData) => ({
@@ -141,27 +141,14 @@ const FlightInfo = () => {
             </div>
             <div className="
                 row-start-2
-                text-primary
-                text-xl
-                border-2 
-                border-secondary
-                border-t-0
-                uppercase
-                font-semibold
-                h-11
-                p-2">
+                cell-header">
                 Callsign
             </div>
             <div className="
                     row-start-2
-                    text-primary 
-                    border-2
-                    border-secondary
-                    border-t-0
-                    border-l-0
+                    cell-body
                     col-span-3
-                    h-11
-                    p-1">
+                    ">
                 <input
                     type="text"
                     placeholder="CALLSIGN"
@@ -181,34 +168,20 @@ const FlightInfo = () => {
             </div>
             <div className="
                 row-start-2
-                border-2
-                border-secondary
-                border-t-0
-                border-l-0
-                text-primary 
-                text-xl
-                uppercase 
+                cell-header
                 text-center
+                border-l-0
                 font-semibold
-                h-11
-                w-full
-                p-2">
+                w-full">
                 VFR 
             </div>
             <div className="
                 row-end-3
-                border-2
-                border-secondary
-                border-t-0
-                border-l-0
-                text-primary 
-                uppercase 
+                cell-header
                 text-center
+                border-l-0
                 font-semibold
-                text-xl
-                h-11
                 w-full
-                p-2
                 ">
                 IFR 
             </div>
@@ -386,7 +359,7 @@ const FlightInfo = () => {
                 font-semibold
                 h-11
                 p-2">
-                ETE<sub>(Estimated Time enroute)</sub>
+                ETE<sub className="">(Est. Time enroute)</sub>
             </div>
             <div className="
                     row-start-5

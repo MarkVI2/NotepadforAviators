@@ -16,7 +16,7 @@ const Frequencies = () => {
             text-2xl
             font-bold
             uppercase
-            col-span-2">
+            col-span-2 py-2">
                 Departure
             </div>
             <div className="
@@ -31,7 +31,7 @@ const Frequencies = () => {
             text-2xl
             font-bold
             uppercase
-            col-span-2">
+            col-span-2 py-2">
                 Notes
             </div>
             <div className="
@@ -47,7 +47,7 @@ const Frequencies = () => {
             text-2xl
             font-bold
             uppercase
-            col-span-2">
+            col-span-2 py-2">
                 Arrival
             </div>
             <div className="
@@ -59,7 +59,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center items-center pt-1
+            text-center items-center py-1
             ">
             Atis
             </div>
@@ -72,7 +72,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -114,7 +114,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             atis
             </div>
@@ -128,7 +128,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -154,7 +154,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             Delivery
             </div>
@@ -167,7 +167,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -193,7 +193,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             Delivery
             </div>
@@ -207,7 +207,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -233,7 +233,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             ground
             </div>
@@ -246,7 +246,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -272,7 +272,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             ground
             </div>
@@ -286,7 +286,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -312,7 +312,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             tower
             </div>
@@ -325,7 +325,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -351,7 +351,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             tower
             </div>
@@ -365,7 +365,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -391,7 +391,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             departure
             </div>
@@ -404,7 +404,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -430,7 +430,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             departure
             </div>
@@ -444,7 +444,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -470,7 +470,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             radar
             </div>
@@ -483,7 +483,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -509,7 +509,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             radar
             </div>
@@ -523,7 +523,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -549,7 +549,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             enroute
             </div>
@@ -562,7 +562,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
                 <input
                     type="text"
@@ -588,7 +588,7 @@ const Frequencies = () => {
             uppercase
             text-primary
             text-xl
-            text-center pt-1
+            text-center py-1
             ">
             enroute
             </div>
