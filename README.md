@@ -62,13 +62,13 @@ http://localhost:3000/
 
 ## How to contribute
 
-1. Switch to the `alpha` branch.
+1. Switch to the `dev` branch. (`git checkout dev`)
 
 2. Fork the repository.
 
 3. Make changes to the forked repository.
 
-4. Submit a pull request, and ensure Vecel's preview deployment is passing.
+4. Submit a pull request, and ensure Vercel's preview deployment is passing.
 
 The primary way to contribute is to look under an issue for the issue
 description and try to fix/add that particular bug/feature. In case of new
