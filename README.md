@@ -1,6 +1,5 @@
 <div align="center">
   <h1>Notepad For Aviators</h1>
-
 <p> Notepad for Aviators is a notepad specifically to cater the needs of aviators
 looking to jot down information during flight. The web app can be used for both
 real flights and virtual simulations. </p>
