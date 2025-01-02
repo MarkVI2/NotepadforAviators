@@ -1,18 +1,19 @@
+"use client";
 import React, { useState } from "react";
 import { IconBrandVercel, IconSettings } from "@tabler/icons-react";
 import { IconButton, Tooltip } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 type SidebarProps = {
-  navItems?: NavItem[];
-  onButtonClick?: (label: string) => void;
+    navItems?: NavItem[];
+    onButtonClick?: (label: string) => void;
 };
 
 export type NavItem = {
-  label: string;
-  href: string; // Updated for proper Next.js routing
-  icon: React.ReactNode;
+    label: string;
+    href: string; // Updated for proper Next.js routing
+    icon: React.ReactNode;
 };
 
 const CustomIconButton = styled(IconButton)(({ theme }) => ({
@@ -39,7 +40,7 @@ const Sidebar: React.FC<SidebarProps> = ({ navItems = [], onButtonClick }) => {
     };
 
     return (
-        <div className="w-14 bg-background-sidebar h-screen flex flex-col">
+        <div className="w-14 bg-background-sidebar h-svh flex flex-col">
         <div className="p-4 bg-primary">
             <IconBrandVercel className="text-background-sidebar flex rounded-md items-center" />
         </div>

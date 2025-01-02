@@ -1,27 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600&display=swap');
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: calc(18px+1vw);
+  line-height: calc(1.2em+0.5vh);
+  @apply bg-background-dark text-primary1;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer components {
+  .cell-header {
+    @apply text-primary text-xl uppercase max-h-11 p-2 border-secondary border-2 border-t-0 font-semibold;
+  }
+
+  .cell-body {
+    @apply text-primary text-lg border-secondary border-2 border-t-0 border-l-0 p-1 max-h-11
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+input[type=time]::-webkit-datetime-edit-ampm-field {
+  display: none;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+  background: none;
+  -webkit-appearance: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }

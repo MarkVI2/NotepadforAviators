@@ -10,7 +10,6 @@ real flights and virtual simulations. </p>
     <img alt="Static Badge" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
     <img alt="Static Badge" src="https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=FFFFFF">
     <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
-    <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
 </p>
 </div>
 
@@ -45,13 +44,13 @@ cd NotepadforAviators
 3. Install dependencies
 
 ```bash
-yarn install
+pnpm install
 ```
 
 4. Run project
 
 ```bash
-yarn run dev
+pnpm run dev
 ```
 
 5. Access the project
@@ -62,7 +61,7 @@ http://localhost:3000/
 
 ## How to contribute
 
-1. Switch to the `alpha` branch.
+1. Switch to the `dev` branch. (`git checkout dev`)
 
 2. Fork the repository.
 
