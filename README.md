@@ -67,7 +67,7 @@ http://localhost:3000/
 
 3. Make changes to the forked repository.
 
-4. Submit a pull request, and ensure Vecel's preview deployment is passing.
+4. Submit a pull request, and ensure Vercel's preview deployment is passing.
 
 The primary way to contribute is to look under an issue for the issue
 description and try to fix/add that particular bug/feature. In case of new

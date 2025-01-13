@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss';
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
@@ -10,34 +10,34 @@ const config: Config = {
     colors: {
       "background-dark": "#383838",
       "background-sidebar": "#474747",
-      "primary1": "#bbadcd",
-      "primary": "#AB9AC1",
-      "secondary": "#CACDCE",
-      "accent": "#a69ed6",
+      primary1: "#bbadcd",
+      primary: "#AB9AC1",
+      secondary: "#CACDCE",
+      accent: "#a69ed6",
     },
     extend: {
       gridTemplateColumns: {
         "sidebar-flightInfo": "repeat(6, minmax(0.5, 1fr)) auto",
       },
       gridTemplateRows: {
-        '2': 'repeat(2, minmax(1, 1fr)) auto',
-        '6': 'repeat(6, minmax(1, 1fr)) auto',
-        '9': 'repeat(9, minmax(1, 1fr)) auto',
+        "2": "repeat(2, minmax(1, 1fr)) auto",
+        "6": "repeat(6, minmax(1, 1fr)) auto",
+        "9": "repeat(9, minmax(1, 1fr)) auto",
       },
       gridRow: {
-        'span-7': 'span 7 / span 7',
+        "span-7": "span 7 / span 7",
       },
       gridRowStart: {
-        '8': '8',
-        '9': '9',
+        "8": "8",
+        "9": "9",
       },
       gridRowEnd: {
-        '8': '8',
-        '9': '9',
+        "8": "8",
+        "9": "9",
       },
       borderWidth: {
         "1": "1px",
-        '3': '3px',
+        "3": "3px",
       },
     },
   },
